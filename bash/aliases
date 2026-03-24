@@ -5,7 +5,7 @@ alias grep='grep --color'
 alias grepall='grep -rnwi'
 alias ll='ls -alh'
 
-# Always prompt unless -f is used
+# Always prompt to delete files unless -f is used
 alias rm='rm -i'
 
 # Typos
