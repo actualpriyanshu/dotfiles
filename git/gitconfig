@@ -1,6 +1,6 @@
 [user]
-    name  = Kapil Agarwal
-    email = kapilag96@gmail.com
+    name  = Priyanshu Agarwal
+    email = priyanshuone6@gmail.com
 [alias]
     tree  = log --decorate --graph --oneline
     pick  = cherry-pick
@@ -23,3 +23,9 @@
     cmd = code --wait --diff $LOCAL $REMOTE
 [mergetool "vscode"]
     cmd = code --wait $MERGED
+[credential "https://github.com"]
+	helper = 
+	helper = !gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !gh auth git-credential
